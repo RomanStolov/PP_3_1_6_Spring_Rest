@@ -1,0 +1,119 @@
+DELETE http://94.198.50.185:7081/api/users/3
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Cookie: JSESSIONID=180438E4A585E7B4AD41686C93789414
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-04T203818-2.200.txt
+
+###
+
+PUT http://94.198.50.185:7081/api/users
+Content-Type: application/json
+Content-Length: 70
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Cookie: JSESSIONID=180438E4A585E7B4AD41686C93789414
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 3,
+  "name": "Thomas",
+  "lastName": "Shelby",
+  "age": 25
+}
+
+<> 2023-06-04T203818-1.200.txt
+
+###
+
+POST http://94.198.50.185:7081/api/users
+Content-Type: application/json
+Content-Length: 68
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Cookie: JSESSIONID=180438E4A585E7B4AD41686C93789414
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 3,
+  "name": "James",
+  "lastName": "Brown",
+  "age": 25
+}
+
+<> 2023-06-04T203818.200.txt
+
+###
+
+GET http://94.198.50.185:7081/api/users
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Cookie: JSESSIONID=D11E46C29B8722AB1A32D7EF57C982A6
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-04T203817.200.json
+
+###
+
+DELETE http://94.198.50.185:7081/api/users/3
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Cookie: JSESSIONID=D11E46C29B8722AB1A32D7EF57C982A6
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-04T201614-2.200.txt
+
+###
+
+PUT http://94.198.50.185:7081/api/users
+Content-Type: application/json
+Content-Length: 69
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Cookie: JSESSIONID=D11E46C29B8722AB1A32D7EF57C982A6
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 3,
+  "name": "Thomas",
+  "lastName": "Brown",
+  "age": 25
+}
+
+<> 2023-06-04T201614-1.200.txt
+
+###
+
+POST http://94.198.50.185:7081/api/users
+Content-Type: application/json
+Content-Length: 68
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Cookie: JSESSIONID=D11E46C29B8722AB1A32D7EF57C982A6
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 3,
+  "name": "James",
+  "lastName": "Brown",
+  "age": 25
+}
+
+<> 2023-06-04T201614.200.txt
+
+###
+
+GET http://94.198.50.185:7081/api/users
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-04T201614.200.json
+
+###
+

@@ -1,0 +1,10 @@
+StatusCode: 200 OK
+BodyUsers: [{"id":1,"name":"Alexander","lastName":"Egorov","age":23},{"id":2,"name":"Snanislav","lastName":"Ivanov","age":21}]
+HttpHeaders: [Set-Cookie:"JSESSIONID=17FAAB37ED5754C5977BBF105FECCFB1; Path=/; HttpOnly", X-Content-Type-Options:"nosniff", X-XSS-Protection:"1; mode=block", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY", Content-Type:"application/json", Transfer-Encoding:"chunked", Date:"Sun, 04 Jun 2023 17:35:39 GMT", Keep-Alive:"timeout=60", Connection:"keep-alive"]
+Cookie: JSESSIONID=17FAAB37ED5754C5977BBF105FECCFB1; Path=/; HttpOnly
+
+Первая часть ответа: 5ebfeb
+Вторая часть ответа: e7cb97
+Третья часть ответа: 5dfcf9
+
+Итоговый ответ: 5ebfebe7cb975dfcf9
